@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
 
 body {
-  background: url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed left;
   background-size: cover;
-  background-color: rgb(3, 145, 145);
+  background-color: black;
 }
 
 h1 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Source Code Pro", monospace;
   font-size: 36px;
   word-wrap: break-word;
   color: aliceblue;
@@ -53,6 +54,8 @@ ul {
   display: inline-block;
 }
 
-ul > li {
+ul > a {
   display: inline-block;
+  color: white;
+  text-decoration: none;
 }
