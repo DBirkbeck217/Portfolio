@@ -49,17 +49,25 @@ h2 {
 .work_container {
   max-width: 200px;
   max-height: 200px;
-  transition: opacity ease-out 0.2s;
+  transition: transform ease-out 0.5s;
 }
 
 .work_container:hover {
-  /* opacity: 0.5; */
-  /* transition: opacity ease-in 0.2s; */
-  transform: rotate(45deg);
+  transition: transform ease-in 0.5s;
+  transform: rotate(360deg);
+}
+
+.work_container:active {
+  opacity: 0.7;
 }
 
 .work_container:hover .text_overlay {
   display: block;
+}
+
+.work_img {
+  width: 100%;
+  height: auto;
 }
 
 .social_links > span {
