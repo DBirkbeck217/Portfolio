@@ -47,14 +47,15 @@ h2 {
 }
 
 .work_container {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
   transition: opacity ease-out 0.2s;
 }
 
 .work_container:hover {
-  opacity: 0.5;
-  transition: opacity ease-in 0.2s;
+  /* opacity: 0.5; */
+  /* transition: opacity ease-in 0.2s; */
+  transform: rotate(45deg);
 }
 
 .work_container:hover .text_overlay {
@@ -96,4 +97,12 @@ ul > a {
   display: inline-block;
   color: white;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .work_container {
+    max-width: 175px;
+    max-height: 175px;
+    margin-top: 25px;
+  }
 }
