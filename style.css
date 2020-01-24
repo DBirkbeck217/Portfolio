@@ -85,6 +85,10 @@ h2 {
   margin-top: 5%;
 }
 
+#social_icon {
+  font-size: 3em;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -112,5 +116,9 @@ ul > a {
     max-width: 175px;
     max-height: 175px;
     margin-top: 25px;
+  }
+
+  #social_icon {
+    font-size: 2em;
   }
 }
