@@ -68,6 +68,12 @@ h2 {
 .work_img {
   width: 100%;
   height: auto;
+  transition: transform ease-out 0.3s;
+}
+
+.work_img:hover {
+  transition: transform ease-in 0.3s;
+  transform: scale(1.2);
 }
 
 .social_links > span {
