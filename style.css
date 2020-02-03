@@ -2,7 +2,7 @@
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed center;
+    url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed center left;
   background-size: cover;
   background-color: black;
 }
