@@ -12,8 +12,8 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 h1 {
@@ -138,6 +138,8 @@ ul > a {
   }
 
   body {
+    height: 100vh;
+    width: 100vw;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed 15%;
     background-size: cover;
@@ -145,7 +147,5 @@ ul > a {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 100%;
-    width: 100%;
   }
 }
