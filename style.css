@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
 
+html {
+  height: 100%;
+  width: 100%;
+}
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed left;
