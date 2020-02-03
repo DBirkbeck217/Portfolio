@@ -127,4 +127,11 @@ ul > a {
   #social_icon {
     font-size: 2em;
   }
+
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed 15%;
+    background-size: cover;
+    background-color: black;
+  }
 }
