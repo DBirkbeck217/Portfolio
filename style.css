@@ -5,6 +5,11 @@ body {
     url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed left;
   background-size: cover;
   background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -133,5 +138,10 @@ ul > a {
       url("https://i.imgur.com/wJxAGbL.jpg") no-repeat fixed 15%;
     background-size: cover;
     background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    width: 100%;
   }
 }
