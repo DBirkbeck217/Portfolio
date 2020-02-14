@@ -18,10 +18,52 @@ body {
 
 section > h1 {
   text-align: center;
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
   font-size: 36px;
   word-wrap: break-word;
   color: aliceblue;
+}
+.text_container {
+  width: 135px;
+  margin: auto;
+  letter-spacing: -0.01em;
+}
+
+.greeting {
+  font-family: "Source Code Pro", monospace;
+  border-right: 0.15em solid aliceblue;
+  display: inline-block;
+  font-size: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  animation: typing 3s steps(12, end), blinking-cursor 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: aliceblue;
+  }
+}
+
+.about {
+  font-family: "Source Code Pro", monospace;
+  display: inline;
+  /* border-right: 0.15em solid aliceblue;
+  animation: typing 3s steps(12, end), blinking-cursor 0.7s step-end infinite; */
 }
 
 h2 {
